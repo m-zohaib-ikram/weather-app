@@ -5,7 +5,11 @@
 
 ## Preview
 
-<video src="SS/Gift.mp4" width="200" controls></video>
+
+
+https://github.com/user-attachments/assets/f9a00e28-81ed-48fb-9031-235d65a54f53
+
+
 
 ## Screenshots
 a
