@@ -5,10 +5,10 @@
 
 ## Preview
 
-<img src="SS/Gift.mp4gif1" width="200"/>
+<video src="SS/Gift.mp4" width="200" controls></video>
 
 ## Screenshots
-
+a
 <p float="left">
     <img src="SS/Image 1.jpeg" width="200"/>
     <img src="SS/Image2.jpeg" width="200"/>
