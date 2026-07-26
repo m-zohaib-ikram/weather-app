@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/premium_gradient"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <!-- App Icon -->
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/broken_clouds"
+            app:tint="#FFD700"
+            android:layout_marginBottom="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Weather"
+            android:textColor="#FFFFFF"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="30dp" />
+
+        <!-- Email Field -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginBottom="15dp"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="0dp"
+            app:cardBackgroundColor="#33FFFFFF">
+
+            <EditText
+                android:id="@+id/email_et"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/transparent"
+                android:hint="Enter Email"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#CCFFFFFF"
+                android:paddingStart="20dp"
+                android:inputType="textEmailAddress" />
+        </androidx.cardview.widget.CardView>
+
+        <!-- Password Field -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginBottom="25dp"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="0dp"
+            app:cardBackgroundColor="#33FFFFFF">
+
+            <EditText
+                android:id="@+id/password_et"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/transparent"
+                android:hint="Enter Password"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#CCFFFFFF"
+                android:paddingStart="20dp"
+                android:inputType="textPassword" />
+        </androidx.cardview.widget.CardView>
+
+        <!-- Login Button -->
+        <Button
+            android:id="@+id/login_btn"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="LOGIN"
+            android:textColor="#121212"
+            android:textStyle="bold"
+            android:backgroundTint="#FFD700"
+            app:cornerRadius="15dp"/>
+
+        <!-- OR Text -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="- OR -"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:textStyle="bold" />
+
+        <!-- Guest Mode Button -->
+        <Button
+            android:id="@+id/guest_btn"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="CONTINUE AS GUEST"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:backgroundTint="#4DFFFFFF"
+            app:strokeWidth="1dp"
+            app:strokeColor="#FFFFFF"
+            app:cornerRadius="15dp"/>
+
+        <!-- Go to Signup Link -->
+        <TextView
+            android:id="@+id/go_to_signup_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Don't have an account? Sign Up"
+            android:textColor="#FFD700"
+            android:textSize="14sp"
+            android:layout_marginTop="25dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+</RelativeLayout>
