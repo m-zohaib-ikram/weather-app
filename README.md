@@ -5,13 +5,15 @@
 
 ## Preview
 
-<img src="https://github.com/dev-aniketj/Weather-App/blob/master/SS/gif1.gif" width="200"/>
+<img src="SS/Gift.mp4gif1" width="200"/>
 
 ## Screenshots
 
 <p float="left">
-	<img src="https://github.com/dev-aniketj/Weather-App/blob/master/SS/image1.jpg" width="200"/>
-	<img src="https://github.com/dev-aniketj/Weather-App/blob/master/SS/image2.jpg" width="200"/>
+    <img src="SS/Image 1.jpeg" width="200"/>
+    <img src="SS/Image2.jpeg" width="200"/>
+    <img src="SS/Image 3.jpeg" width="200"/>
+
 </p>
 
 
