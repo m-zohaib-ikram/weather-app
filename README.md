@@ -12,7 +12,7 @@ https://github.com/user-attachments/assets/f9a00e28-81ed-48fb-9031-235d65a54f53
 
 
 ## Screenshots
-a
+
 <p float="left">
     <img src="SS/Image 1.jpeg" width="200"/>
     <img src="SS/Image2.jpeg" width="200"/>
